@@ -1,0 +1,145 @@
+#banner {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 198px;
+  width: 940px;
+  margin: -35px auto;
+  background: url("../images/Banner2015v1.jpg");
+}
+
+main {
+  color: #333;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 30px;
+}
+
+.alignleft,
+.alignright,
+.aligncenter {
+  margin-bottom: 12px;
+}
+
+.alignright {
+  float: right;
+  margin-left: 24px;
+  margin-top: 4px;
+  position: relative;
+}
+
+main img {
+  margin: 0;
+  height: auto;
+  max-width: 640px;
+  width: auto;
+vertical-align: baseline;
+}
+
+a img {
+  border: none;
+}
+
+body {
+  color: #000;
+  line-height: 18px;
+  background: #999;
+  font-family: Georgia, "Bitstream Charter", serif;
+  display: block;
+}
+
+section {
+  padding: 20px;
+  font-size: 16px;
+  display: inline-block;
+  min-width: 900px;
+  box-shadow: 0 5px 4px -4px black;
+}
+
+.body {
+  background: #fff;
+  margin-top: 20px;
+  padding: 0;
+  margin: 0 auto;
+  width: 940px;
+}
+
+header {
+  padding: 35px 0 0;
+}
+
+nav {
+  position: relative;
+  z-index: 1;
+  padding-left: 1em;
+  font-size: 18px;
+}
+
+nav > a {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  padding: .3em 1em 4em;
+  color: inherit;
+  text-decoration: none;
+  margin: 0 -.3em;
+}
+
+nav a::before {
+  content: '';
+  background: #ccc linear-gradient(hsla(0, 0%, 100%, .6), hsla(0, 0%, 100%, 0));
+  border-left: 2px solid #bbb;
+  border-bottom: none;
+  z-index: -1;
+  box-shadow: 0 .15em #fff inset;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+nav a.selected {
+  z-index: 2;
+}
+
+nav a.selected::before {
+  background-color: #FFF;
+  margin-bottom: -.08em;
+  border-left: 2px solid #FFF;
+  border-bottom: 0;
+}
+
+nav {
+  position: relative;
+  z-index: 1;
+  padding-left: 2.2em;
+}
+
+nav > a {
+  position: relative;
+  display: inline-block;
+  padding: .4em 1em .3em;
+  color: inherit;
+  text-decoration: none;
+  margin: 0 -.3em 1px;
+}
+
+main {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 1em;
+  background: #eee;
+  padding: 1em;
+  border-radius: .15em;
+
+}
+
+footer {
+  background: #EEE;
+  padding: 20px;
+  box-shadow: 0 3px 4px -4px rgba(0,0,0,0.39);
+}
+
+#colophon {
+  padding: 20px;
+}

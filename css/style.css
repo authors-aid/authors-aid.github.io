@@ -1,10 +1,8 @@
 #banner {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   height: 198px;
   width: 940px;
   margin: -35px auto;
-  background: url("../images/Banner2015v1.jpg");
+  background: url("../images/Banner2015v1.jpg") no-repeat fixed;
 }
 
 main {
@@ -57,7 +55,6 @@ section {
 
 .body {
   background: #fff;
-  margin-top: 20px;
   padding: 0;
   margin: 0 auto;
   width: 940px;
